@@ -1,527 +1,162 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jonathan Hsu Software Engineer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Hsu</title>
+    <meta name="description" content="Personal page of Jonathan Hsu. GitHub: bigbellypenguin.">
+    <meta name="color-scheme" content="light dark">
+    <link rel="canonical" href="https://bigbellypenguin.github.io/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1>I am<strong> Jonathan Hsu</strong>, a software engineer
-					with full stack experiences with JavaScript, Python, React/Redux,
-					Express.js, Flask, and PostgreSQL.</h1>
-					<a href="./images/Jonathan Hsu Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-				</div>
-			</header>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="#top">Jonathan Hsu</a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-		<!-- Main -->
-			<div id="main">
+    <main id="main" tabindex="-1">
+      <section class="hero" id="top" aria-labelledby="intro-heading">
+        <img
+          class="portrait"
+          src="/images/avatar.jpg"
+          width="640"
+          height="716"
+          alt="Portrait of Jonathan Hsu"
+          decoding="async"
+        >
+        <div class="hero-copy">
+          <p class="kicker">
+            <a rel="me" href="https://github.com/bigbellypenguin">github.com/bigbellypenguin</a>
+          </p>
+          <h1 id="intro-heading">Jonathan Hsu</h1>
+          <p class="placeholder">
+            <span class="placeholder-label">Placeholder</span>
+            Add one sentence here for visitors — what you want them to remember.
+          </p>
+        </div>
+      </section>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2><strong>About Me:</strong><br /></h2>
-							<h3>Hello! I am Jonathan Hsu, a software engineer currently residing in New York City.</h3>
-						</header>
-						<p>Ever since I was a child, I had a passion in building things and had strong curiousity with technology.<br />
-							<br />
-							My love for exploring and expressing creativity and the ability to be logical and detail-oriented eventually led<br />
-							me to Software Engineering. Programming gave me the ability to be free and expressive with the front-end<br />
-							user interfaces while keeping me intrugued with the logics in the back-end design structures.<br />
-							<br />
-							While not coding, I enjoy photography and traveling to capture the beauty of landscapes and memorable <br />
-							moments in life.
-						</p>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul> -->
-					</section>
+      <section id="about" aria-labelledby="about-heading">
+        <div class="section-heading">
+          <h2 id="about-heading">About</h2>
+        </div>
+        <div class="prose">
+          <p class="placeholder">
+            <span class="placeholder-label">Placeholder</span>
+            Add a short biography here: what you work on, where you are, or anything else you want on this page.
+          </p>
+        </div>
+      </section>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.gif" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Venmo-Clone</h3>
-								<p>Venmo Clone is a clone of Venmo that allows registered users to interact with each other by sending/ requesting payments, as well as viewing and commenting on other users’ payments.</p>
-								<br />
-								<p><string>Technologies Used: </string>JavaScript, React, Redux, Python, Flask, PostgreSQL, SQLAlchemy, CSS3, HTML5, Git, Docker</p>
-								<br />
-								<p><a href="https://venmo-clone.herokuapp.com/">Live Site</a></p>
-								<p><a href="https://github.com/jonathancchsu/venmo-clone">GitHub Repo</a></p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.gif" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Slack-Clone</h3>
-								<p>Slack Clone is a clone of Slack that allows users to create private workspaces, channels, and direct messages with live chatting.</p>
-								<br />
-								<p><string>Technologies Used: </string>JavaScript, React, Redux, Python, Flask, PostgreSQL, SQLAlchemy, CSS3, HTML5, Git, Docker, AWS, Socket.io</p>
-								<br />
-								<p><a href="https://slack-project-clone.herokuapp.com/">Live Site</a></p>
-								<p><a href="https://github.com/jonathancchsu/slack-clone-repo">GitHub Repo</a></p>
-							</article>
-							<!-- <article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.gif" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Photo-Dump</h3>
-								<p>A web application that allows users to have full CRUD features for photos and comments.</p>
-								<br />
-								<p><string>Technologies Used: </string>JavaScript, React, Redux, Node.js, Express.js, PostgreSQL, Sequelize, CSS3, HTML5, Git</p>
-								<br />
-								<p><a href="https://photo-dump.herokuapp.com/">Live Site</a></p>
-								<p><a href="https://github.com/jonathancchsu/photo-dump">GitHub Repo</a></p>
-							</article> -->
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.gif" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Fitness-Overflow</h3>
-								<p>A forum website that allows users to have full CRUD features in creating comments and asking questions within the community.</p>
-								<br />
-								<p><string>Technologies Used: </string>JavaScript, Node.js, Express.js, PostgreSQL, Sequelize, CSS3, HTML5, Git</p>
-								<br />
-								<p><a href="https://fitnessoverflow.herokuapp.com/">Live Site</a></p>
-								<p><a href="https://github.com/jonathancchsu/fitness-overflow">GitHub Repo</a></p>
-							</article>
-						</div>
-						<!-- <ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul> -->
-					</section>
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <h2 id="projects-heading">Projects</h2>
+          <p>Public repositories under bigbellypenguin.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project" id="slack-clone">
+            <img
+              src="/images/projects/slack.jpg"
+              width="1200"
+              height="582"
+              alt="Screenshot of Slack Clone showing a channel conversation about databases"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="project-body">
+              <p class="lang"><span class="visually-hidden">Primary language: </span>Python</p>
+              <h3><a href="https://github.com/bigbellypenguin/slack-clone-repo">Slack Clone</a></h3>
+              <p>A web app for private workspaces, channels, and direct messages.</p>
+              <p class="repo-name">bigbellypenguin/slack-clone-repo</p>
+            </div>
+          </article>
 
-				<!-- Two -->
-				<section id="four">
-					<h2>Technologies</h2>
-					<p>
-						JavaScript, React, Redux, Node.js, Express.js, Python, Flask, PostgreSQL, Sequelize, SQLAlchemy, CSS3, HTML5, Git, VSCode, Docker, AWS, Socket.io
-					</p>
-					<div class="row">
-						<img class="img" src="https://camo.githubusercontent.com/442c452cb73752bb1914ce03fce2017056d651a2099696b8594ddf5ccc74825e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667" alt="drawing" width="100"/>
-						<img class="img" src="https://camo.githubusercontent.com/27d0b117da00485c56d69aef0fa310a3f8a07abecc8aa15fa38c8b78526c60ac/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667" alt="react" width="100">
-						<img class="img" src="https://camo.githubusercontent.com/2b6b50702c658cdfcf440cef1eb88c7e0e5a16ce0eb6ab8bc933da7697c12213/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f72656475782f72656475782d6f726967696e616c2e737667" alt="redux" width="100">
-						<img class="img" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="nodejs" width="100"/>
-						<img class="img" src="https://vladmrnv.gallerycdn.vsassets.io/extensions/vladmrnv/expresssnippet/0.2.4/1528939685286/Microsoft.VisualStudio.Services.Icons.Default" alt="expressjs" width="100"/>
-						<img class="img" src="https://www.pngall.com/wp-content/uploads/5/Python-PNG.png" alt="python" width ="100">
-						<img class="img" src="https://user-images.githubusercontent.com/92463844/162601723-beb79065-3555-4c2d-86c1-37d914e6d7ae.png" alt="flask" width ="100">
-						<img class="img" src="https://camo.githubusercontent.com/d536b9cc0c533324368535ece721f5424f28eae3ec0e6f3847408948ecacfce6/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f706f737467726573716c2f706f737467726573716c2d6f726967696e616c2e737667" alt="postgreSQL" width="100">
-						<img class="img" src="https://cdn.iconscout.com/icon/free/png-256/sequelize-1175001.png" alt="sequelize" width="100"/>
-						<img class="img" src="https://pbs.twimg.com/profile_images/476392134489014273/q5uAkmy7_400x400.png" alt="sqlalchemy" width="100"/>
-						<img class="img" src="https://camo.githubusercontent.com/2e496d4bfc6f753ddca87b521ce95c88219f77800212ffa6d4401ad368c82170/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d6f726967696e616c2e737667" alt="css3" width="100">
-						<img class="img" src="https://camo.githubusercontent.com/da7acacadecf91d6dc02efcd2be086bb6d78ddff19a1b7a0ab2755a6fda8b1e9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667" alt="html5" width="100">
-						<img class="img" src="https://camo.githubusercontent.com/dc9e7e657b4cd5ba7d819d1a9ce61434bd0ddbb94287d7476b186bd783b62279/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d6f726967696e616c2e737667" alt="git" width="100">
-						<img class="img" src="https://camo.githubusercontent.com/5fa137d222dde7b69acd22c6572a065ce3656e6ffa1f5e88c1b5c7a935af3cc6/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2e737667" alt="vscode" width="100">
-						<img class="img" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="docker" width="100">
-						<img class="img" src="https://alpine-consulting.com/wp-content/uploads/2019/04/AWS-Logo.png" alt="aws" width="100"/>
-						<img class="img" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_256/https://itsolution24x7.com/blog/wp-content/uploads/2020/06/socketio.png" alt="socketio" width="100"/>
-					</div>
-				</section>
+          <article class="project" id="venmo-clone">
+            <img
+              src="/images/projects/venmo.jpg"
+              width="1200"
+              height="574"
+              alt="Screenshot of Venmo Clone showing a feed of payments between users"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="project-body">
+              <p class="lang"><span class="visually-hidden">Primary language: </span>Python</p>
+              <h3><a href="https://github.com/bigbellypenguin/venmo-clone">Venmo Clone</a></h3>
+              <p>A web app for sending, receiving, and requesting payments, and for commenting on those payments.</p>
+              <p class="repo-name">bigbellypenguin/venmo-clone</p>
+            </div>
+          </article>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>I am actively looking for full-time or intership positions. But happy to chat if you have any other questions or <br />
-							simply want to say Hi!</p>
-						<div class="row">
-							<!-- <div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div> -->
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<!-- <li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
-										United States
-									</li> -->
-									<!-- <li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										914-446-8757
-									</li> -->
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										Email:
-										<a href="mailto:jonathan.hsu112@gmail.com">jonathan.hsu112@gmail.com</a>
-									</li>
-									<li>
-										<h3 class="icon brands fa-github"><span class="label">Github</span></h3>
-										Github:
-										<a href="https://github.com/jonathancchsu">github.com/jonathancchsu</a>
-									</li>
-									<li>
-										<h3 class="icon brands fa-angellist"><span class="label">AngelList</span></h3>
-										AngelList:
-										<a href="https://angel.co/u/jonathan-hsu-22">angel.co/jonathan-hsu-22</a>
-									</li>
-									<li>
-										<h3 class="icon brands fa-linkedin"><span class="label">LinkedIn</span></h3>
-										LinkedIn:
-										<a href="https://www.linkedin.com/in/jonathancchsu/">linkedin.com/in/jonathancchsu</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+          <article class="project" id="fitness-overflow">
+            <img
+              src="/images/projects/fitness.jpg"
+              width="1200"
+              height="584"
+              alt="Screenshot of Fitness Overflow showing a question titled What is a good warm-up routine?"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="project-body">
+              <p class="lang"><span class="visually-hidden">Primary language: </span>JavaScript</p>
+              <h3><a href="https://github.com/bigbellypenguin/fitness-overflow">Fitness Overflow</a></h3>
+              <p>A fitness-themed question-and-answer site.</p>
+              <p class="repo-name">bigbellypenguin/fitness-overflow</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
+      <section id="contact" aria-labelledby="contact-heading">
+        <div class="section-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <p>GitHub, email, LinkedIn, and Wellfound.</p>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <a class="contact-link" rel="me" href="https://github.com/bigbellypenguin">
+              <span class="contact-kind">GitHub</span>
+              <span class="contact-value">github.com/bigbellypenguin</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="mailto:jonathan.hsu112@gmail.com">
+              <span class="contact-kind">Email</span>
+              <span class="contact-value">jonathan.hsu112@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://www.linkedin.com/in/jonathancchsu/">
+              <span class="contact-kind">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/jonathancchsu</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact-link" href="https://wellfound.com/u/jonathan-hsu-22">
+              <span class="contact-kind">Wellfound</span>
+              <span class="contact-value">wellfound.com/u/jonathan-hsu-22</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				-->
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://github.com/jonathancchsu" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://angel.co/u/jonathan-hsu-22" class="icon brands fa-angellist"><span class="label">AngelList</span></a></li>
-						<li><a href="https://www.linkedin.com/in/jonathancchsu/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:jonathan.hsu112@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer class="site-footer">
+      <div class="inner">
+        <p>Jonathan Hsu · <a rel="me" href="https://github.com/bigbellypenguin">bigbellypenguin</a></p>
+      </div>
+    </footer>
+  </body>
 </html>
